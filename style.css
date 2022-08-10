@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEE;
+}
+.container{
+    background-color:#aae1ff;
+    max-width: 900px;
+    margin:0 auto;
+    padding: 20px;
+}
+.profile-image{
+    height: 120px;
+    width: 100 px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float:left;
+    padding: 30px;
+}
+h1,h3, h3, h4, h5, h6{
+    color: #11999e;
+}
+.header-contact{
+    padding:30px;
+    
+    float: right;
+    
+}
+.header-contact a{
+    text-decoration: none;
+    font-weight: bold;
+    color: teal;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.clear-div{
+    clear:both;
+}
+hr{
+    width:100%;
+    border: 3px solid black;
+    border-bottom: none;
+    margin: 10px auto;
+}
+/* Personal section start */
+#personal-information{
+    
+}
+.content{
+    
+}
+.left-div{
+    width: 30%;
+    float:left;
+}
+.right-div{
+    width:70%;
+    float: left;
+}
+.common-hr{
+    width:100%;
+    border: 1px solid black;
+    border-bottom: none;
+    margin: 20px auto;
+}
+/* Personal section end */
+
+/* Work Experience secion start */
+.right-div p{
+    text-align: justify;
+}
+/* Work Experience secion end */
+
+/* key-skills section start */
+.right-div ul li{
+    float:right;
+    width: 95%;
+    text-align: justify;
+}
+/* key-skills section end */
+
+/* education section start */
+.education-temp-left{
+    float: left;
+    width: 45%;
+}
+.education-temp-right{
+    float: right;
+    width: 45%;
+}
+/* education section end */
+
+/* footer start */
+.bottom-container{
+    background-color: black;
+    padding: 10px;
+    text-align:center;
+}
+.bottom-container a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+.bottom-container p{
+    color:white;
+    margin-top: 20px;
+}
